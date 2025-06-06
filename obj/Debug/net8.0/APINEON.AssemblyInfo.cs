@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("APINEON")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8dfdc54ab6703eb76ac5f104e01baaaf1ec9c311")]
 [assembly: System.Reflection.AssemblyProductAttribute("APINEON")]
 [assembly: System.Reflection.AssemblyTitleAttribute("APINEON")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
