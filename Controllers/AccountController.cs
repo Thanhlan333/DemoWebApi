@@ -7,6 +7,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using APINEON.Data;
+using Microsoft.AspNetCore.Authorization;
 
 namespace APINEON.Controllers
 {
@@ -24,6 +25,7 @@ namespace APINEON.Controllers
         }
 
         [HttpPost("login")]
+        [AllowAnonymous]
         public async Task<IActionResult> Login([FromBody] LoginDto loginDto)
         {
             try
